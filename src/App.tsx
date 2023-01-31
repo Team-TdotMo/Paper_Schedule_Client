@@ -1,8 +1,8 @@
-import "./App.css";
+import Mainhome from "./pages/Mainhome";
 
-function App() {
+function App(): JSX.Element {
   return (
-    <div>asfasfasf</div>
+    <Mainhome/>
   );
 }
 
