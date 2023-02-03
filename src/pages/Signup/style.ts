@@ -10,5 +10,3 @@ export const Conainter = styled.div`
     }
   }
 `;
-
-export const Side = styled(SideDesign)``;
