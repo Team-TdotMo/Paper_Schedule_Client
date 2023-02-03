@@ -71,7 +71,7 @@ function SignupForm(): JSX.Element {
               secretCheck ? <img src={OpenEye} /> : <img src={CloseEye} />
             }
           </_.EyeButton>
-          <_.EmailLabel>@dsm.hs.kr</_.EmailLabel>
+          <_.EmailLabel bottom="145px" >@dsm.hs.kr</_.EmailLabel>
         </_.Form>
         <_.SubmitButton>Sign up</_.SubmitButton>
       </div >
