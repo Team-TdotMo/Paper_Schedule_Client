@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Mainhome from "./pages/Mainhome";
-import Signup from "./pages/Signup";
+import Signup from "./pages/AuthPage/signup";
 
 function App(): JSX.Element {
   return (
