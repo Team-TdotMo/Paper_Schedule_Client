@@ -1,0 +1,8 @@
+.App{
+    margin: 0;
+}
+
+@font-face {
+    font-family: "inter-Regular";
+    src: url(../src/assets/fonts/Inter-Regular.ttf);
+  }
