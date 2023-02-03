@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import SideDesign from "../../components/AuthPage/SideDesign";
 
 export const Conainter = styled.div`
   display: flex;
