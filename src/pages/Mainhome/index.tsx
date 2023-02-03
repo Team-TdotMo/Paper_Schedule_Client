@@ -6,7 +6,7 @@ function Mainhome(): JSX.Element {
     <div>
       <_.Background1>
         <_.Nav>
-          <_.SLinkNav to="/">로그인</_.SLinkNav>
+          <_.SLinkNav to="/login">로그인</_.SLinkNav>
           <_.SLinkNav to="/signup">회원가입</_.SLinkNav>
         </_.Nav>
         <_.Warpper>
