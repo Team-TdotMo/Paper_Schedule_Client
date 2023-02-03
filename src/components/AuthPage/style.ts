@@ -31,6 +31,15 @@ export const FormContainer = styled.div`
     & > h1 {
       margin-bottom: 20px;
     }
+    & > div:last-child {
+      margin-top: 30px;
+      justify-content: center;
+      display: flex;
+      gap: 10px;
+      & > p:last-child {
+        color: #2a92be;
+      }
+    }
   }
 `;
 
@@ -43,6 +52,7 @@ export const SubmitButton = styled.button`
   background-color: #c9ebeb;
   border: none;
   border-radius: 30px;
+  cursor: pointer;
 `;
 
 export const Form = styled.div`
@@ -88,10 +98,10 @@ export const EyeButton = styled.button<{ bottom: string }>`
   }
 `;
 
-export const EmailLabel = styled.p`
+export const EmailLabel = styled.p<{ bottom: string }>`
   color: ${gray};
   position: relative;
   left: 265px;
-  bottom: 145px;
+  bottom: ${(props) => props.bottom};
   width: fit-content;
 `;
