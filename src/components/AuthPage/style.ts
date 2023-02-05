@@ -59,6 +59,7 @@ export const Form = styled.div`
   display: flex;
   flex-direction: column;
   margin: 40px 0px;
+  margin-bottom: 0px;
 `;
 
 export const Input = styled.input<{ padding?: number }>`
