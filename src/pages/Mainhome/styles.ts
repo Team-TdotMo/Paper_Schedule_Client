@@ -32,8 +32,9 @@ export const SLinkNav = styled(Link)`
 `;
 
 export const Warpper = styled.div`
-  width: 900px;
-  margin-top: 100px;
+  width: 80%;
+  max-width: 900px;
+  margin-top: 4%;
 `;
 
 export const Title = styled.div`
@@ -45,24 +46,23 @@ export const Title = styled.div`
 export const Flex = styled.div`
   display: flex;
   justify-content: space-between;
+  margin-top: 10%;
 `;
 
-export const SPaperLogo1 = styled.img`
-margin-top: 100px;
-  width: 400px;
+export const SPaperLogo = styled.img`
+  width: 45%;
   height: 200px;
-  margin-right: 200px;
 `;
 
 export const SScheduleLogo = styled.img`
-margin-top: 100px;
-  width: 300px;
-  height: 200px;
+  width: 20%;
+  height: 25%;
+  margin-right: 4%;
 `;
 export const SLinkImgFlex = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 850px;
+  width: 900px;
 `;
 
 export const SLinkImg = styled(Link)`
@@ -88,7 +88,7 @@ export const Background2 = styled.div`
 `;
 
 export const ExplainImg = styled.img`
-    width: 1200px;
+    width: 65%;
 `;
 
 export const Background3 = styled.div`
@@ -123,7 +123,7 @@ export const Footer = styled.footer`
 `;
 
 export const FooterImg = styled.img`
-    width: 240px;
+    width: 15%;
     margin: 30px 0 0 20px;
 `;
 
@@ -131,7 +131,7 @@ export const GithubLogo = styled(Link)`
     & > img{
         width: 50px;
         position: absolute;
-        top: 2950px;
+        top: 315%;
         right: 100px;
     }
 `;

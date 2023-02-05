@@ -13,7 +13,7 @@ function Mainhome(): JSX.Element {
           <_.Title>대마고</_.Title>
           <_.Title>프로젝트 관리 - 협업툴</_.Title>
           <_.Flex>
-            <_.SPaperLogo1 src={PaperLogo} />
+            <_.SPaperLogo src={PaperLogo} />
             <_.SScheduleLogo src={ScheduleLogo} />
           </_.Flex>
         </_.Warpper>
